@@ -1,17 +1,11 @@
 # Artificial-Neural-Network
-***************ReadMe.txt*****************
 
-The Neural Network is implemented using Python.
+We developed Artificial Neural Network from scratch without using any machine learning libraries.
 
-We  used command prompt for compilation by using following command.
+We implemented forward and backward pass algorithm for weight calculation of edges of the neural network.
 
-First, do preprocessing.
-For Pre Processing:
- >python PreProcessing.py urlOfDataSet urlOfOutputSet
- 
-For implementation of  NeuralNetwork:
->python NeuralNet.py ds1 80 500 2 4 2
-Where, ds1 = urlOfOutputSet generated after preprocessing
-80= the percent of the dataset to be used for training 
-200= the maximum number of iterations 
-there are 2 hidden layers with (4, 2) neurons.
+We trained and tested our neural network on UCI ML repository dataset and got 92% accuracy.
+
+**Technology used:**
+- Pandas library for preprocessing of the data
+- Python 
